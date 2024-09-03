@@ -1,0 +1,31 @@
+Program di bawah ini akan menampilkan nilai dari variabel a, b, c, d, e, f, g, dan h dengan format tertentu. Berikut adalah penjelasan dan tampilan dari program tersebut:
+
+Deklarasi Variabel:
+
+int a, b, c, d; mendeklarasikan empat variabel integer.
+double e, f, g, h; mendeklarasikan empat variabel double.
+
+Inisialisasi Variabel:
+
+a=75, b=259, c=3315, d=12345; menginisialisasi variabel integer dengan nilai yang diberikan.
+e=75.07, f=259.055, g=3315.3310, h=12345.67890; menginisialisasi variabel double dengan nilai yang diberikan.
+
+Output dengan printf:
+
+printf("a=%7d\nb=%7d\nc=%7d\nd=%7d\n\n", a, b, c, d); mencetak nilai variabel integer dengan lebar minimal 7 karakter.
+printf("e=%12.5f\nf=%12.5f\ng=%12.5f\nh=%12.5f\n", e, f, g, h); mencetak nilai variabel double dengan lebar minimal 12 karakter dan 5 angka desimal.
+
+a=     75
+b=    259
+c=   3315
+d=  12345
+
+e=   75.07000
+f=  259.05500
+g= 3315.33100
+h=12345.67890
+
+%7d pada printf untuk variabel integer berarti setiap angka akan dicetak dengan lebar minimal 7 karakter. Jika angka kurang dari 7 karakter, maka akan ditambahkan spasi di depan angka.
+
+%12.5f pada printf untuk variabel double berarti setiap angka akan dicetak dengan lebar minimal 12 karakter, termasuk titik desimal dan 5 angka di belakang koma. Jika angka kurang dari 12 karakter, maka akan ditambahkan spasi di depan angka.
+
